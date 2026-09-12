@@ -48,6 +48,20 @@ The repo is public on GitHub: **https://github.com/nfroimo/totaltech-netcolor-la
 `gh` (GitHub CLI) is authenticated in this environment as `nfroimo` — use it for repo/PR
 operations instead of raw git+API calls where it covers the task.
 
+## Security posture
+
+Last reviewed 2026-09-12, clean — see the "Seguridad" section in `README.md` for the
+human-facing summary. As of that review: no secrets/credentials anywhere in the tracked
+files or git history, no DOM-XSS sinks in `script.js` (no `innerHTML`/`eval`/
+`document.write` — don't introduce one without re-checking), all four `target="_blank"`
+WhatsApp links carry `rel="noopener"`, no `localStorage`/cookies, no mixed content, no
+EXIF/GPS/local-path metadata embedded in the media in `assets/`. GitHub secret scanning +
+push protection are enabled on the repo (were off by default). Because the repo is
+**public**, treat anything added to `assets/` or committed to history as world-readable
+from the moment it's pushed — check media for embedded metadata before adding it, same as
+was done here. Re-run this kind of check if a form, third-party script, or any user-data
+handling is ever added — none of that exists today.
+
 ## Running it locally
 
 No build step. Because the hero section uses a `<video>` element, opening `index.html`

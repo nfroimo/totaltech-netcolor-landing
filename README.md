@@ -36,6 +36,18 @@ de abrir `index.html` directo con doble clic evita sorpresas.)
 - Los **testimonios son ficticios** (marcados como tales en el HTML) — reemplazar por
   citas reales de clientes antes de considerar el sitio terminado.
 
+## Seguridad
+
+Última revisión: 2026-09-12 — sin hallazgos. Es un sitio 100% estático (sin backend, sin
+formularios, sin dependencias de terceros), así que la superficie de ataque es chica. Se
+verificó: sin secretos/credenciales en el código ni en el historial de git, sin sinks de
+XSS en `script.js` (no usa `innerHTML`/`eval`/`document.write`), los 4 links a WhatsApp
+llevan `rel="noopener"`, sin `localStorage`/cookies, sin mixed content, y sin metadata
+oculta (EXIF/GPS/rutas locales) en las imágenes, el video o el PDF de `assets/`. Como
+acción correctiva se activó **secret scanning + push protection** de GitHub en el repo
+(estaba apagado por defecto). Repetir esta revisión si se agregan formularios, scripts de
+terceros, o cualquier manejo de datos de usuario.
+
 ## Para trabajar en este repo con Claude Code
 
 Ver [`CLAUDE.md`](CLAUDE.md) — tiene la arquitectura en detalle (cómo están organizados
