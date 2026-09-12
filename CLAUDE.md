@@ -33,8 +33,20 @@ anti granizo), application methods (pincel/rodillo/soplete-tolva), application s
 6–8 h entre manos). If more copy/specs are ever needed, that PDF is the reference — re-read
 it rather than guessing.
 
-There is no README, no git repo, and no package.json — this file is the only project
-documentation.
+There is no package.json and no build tooling. `README.md` has the human-facing summary
+(live link, quick start); this file has the agent-facing detail — keep both in sync when
+either changes.
+
+## Deployment
+
+The repo is public on GitHub: **https://github.com/nfroimo/totaltech-netcolor-landing**
+(remote `origin`, branch `main`). It's live via GitHub Pages at
+**https://nfroimo.github.io/totaltech-netcolor-landing/**, serving straight from the
+`main` branch root — no build step, no `gh-pages` branch, no workflow file. Pushing to
+`main` auto-redeploys within roughly 1–2 minutes; there is no separate deploy command.
+
+`gh` (GitHub CLI) is authenticated in this environment as `nfroimo` — use it for repo/PR
+operations instead of raw git+API calls where it covers the task.
 
 ## Running it locally
 
