@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TotalTech · Membrana impermeable atérmica — Netcolor</title>
+<meta name="description" content="TotalTech de Netcolor: membrana impermeable atérmica con microesferas aislantes. Protege techos y muros del calor, el frío y la humedad, todo el año.">
+<meta name="theme-color" content="#071E3D">
+<meta property="og:title" content="TotalTech · Membrana impermeable atérmica">
+<meta property="og:description" content="El clima cambia. Tu casa, no. Microesferas aislantes que reflejan el sol, conservan el calor y sellan techos y muros.">
+<meta property="og:type" content="website">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+<!-- Fondo atmosférico: halos + trama hexagonal (microesferas) -->
+<div class="bg" aria-hidden="true">
+  <div class="bg__halo bg__halo--warm"></div>
+  <div class="bg__halo bg__halo--cool"></div>
+  <div class="bg__halo bg__halo--deep"></div>
+  <svg class="bg__hex" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <pattern id="hexPattern" width="56" height="96" patternUnits="userSpaceOnUse" patternTransform="scale(1.5)">
+        <path d="M28 0 L56 16 L56 48 L28 64 L0 48 L0 16 Z M28 64 L56 80 L56 112 M28 64 L0 80 L0 112" fill="none" stroke="currentColor" stroke-width="1"/>
+      </pattern>
+    </defs>
+    <rect width="100%" height="100%" fill="url(#hexPattern)"/>
+  </svg>
+  <div class="bg__grain"></div>
+</div>
+
+<!-- ══════════ HEADER ══════════ -->
+<header class="site-header" id="siteHeader">
+  <div class="nav-shell">
+    <nav class="nav glass" aria-label="Navegación principal">
+      <a class="brand" href="#inicio">
+        <span class="brand__mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M12 2.5 3.5 7v10L12 21.5 20.5 17V7L12 2.5Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><circle cx="12" cy="12" r="3.2" fill="currentColor"/></svg>
+        </span>
+        <span class="brand__text">
+          <span class="brand__name">Netcolor</span>
+          <span class="brand__tag">TotalTech</span>
+        </span>
+      </a>
+
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#producto">Producto</a></li>
+        <li><a href="#beneficios">Beneficios</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#testimonios">Testimonios</a></li>
+      </ul>
+
+      <a class="btn btn--ghost nav__cta" href="https://wa.me/5511999999999?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20TotalTech" target="_blank" rel="noopener">Pedí asesoramiento</a>
+
+      <button class="nav__toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="navLinks" aria-label="Abrir menú">
+        <span></span><span></span>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<main id="contenido">
+
+<!-- ══════════ HERO ══════════ -->
+<section class="hero" id="inicio">
+  <div class="wrap hero__grid">
+
+    <div class="hero__copy">
+      <p class="eyebrow reveal">
+        <span class="eyebrow__dot" aria-hidden="true"></span>
+        Netcolor · Membrana impermeable atérmica
+      </p>
+
+      <h1 class="hero__title reveal">
+        <span class="line">El clima cambia.</span>
+        <span class="line line--soft">Tu casa,</span>
+        <span class="line">no.</span>
+      </h1>
+
+      <p class="hero__lead reveal">
+        <strong>TotalTech</strong> es la membrana impermeable atérmica de Netcolor. Sus
+        microesferas aislantes reflejan la radiación solar, conservan el calor puertas adentro
+        y sellan techos y muros contra la lluvia. Una sola aplicación, los doce meses del año.
+      </p>
+
+      <div class="hero__actions reveal">
+        <a class="btn btn--solid" href="https://wa.me/5511999999999?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20TotalTech" target="_blank" rel="noopener">
+          <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.22 8.22 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.25-8.24 2.2 0 4.27.86 5.83 2.42a8.19 8.19 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23Z"/></svg>
+          Pedí asesoramiento
+        </a>
+        <a class="btn btn--outline" href="#producto">Ver cómo funciona</a>
+      </div>
+
+      <!-- Las tres pills de la etiqueta, con sus colores originales -->
+      <ul class="pills reveal" aria-label="Beneficios principales">
+        <li class="pill pill--green">Ahorra energía</li>
+        <li class="pill pill--yellow">Barrera solar</li>
+        <li class="pill pill--blue">Techos y muros</li>
+      </ul>
+    </div>
+
+    <!-- Tarjeta de vidrio vertical con el spot -->
+    <figure class="hero__media glass reveal">
+      <div class="video-frame">
+        <video id="heroVideo" src="assets/casa-3d.mp4" muted loop playsinline autoplay preload="metadata"
+               aria-label="Spot de TotalTech: la misma casa en verano y en invierno"></video>
+        <div class="video-frame__veil" aria-hidden="true"></div>
+
+        <button class="sound-toggle" id="soundToggle" type="button" aria-pressed="false" aria-label="Activar sonido del video">
+          <svg class="icon-muted" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="m16 9 5 6m0-6-5 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          <svg class="icon-sound" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18 6a8.5 8.5 0 0 1 0 12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        </button>
+      </div>
+
+      <figcaption class="hero__media-foot">
+        <div>
+          <p class="hero__media-title">TotalTech</p>
+          <p class="hero__media-sub">Membrana impermeable atérmica · Blanco</p>
+        </div>
+        <span class="hero__media-badge">4 L · 20 L</span>
+      </figcaption>
+    </figure>
+
+  </div>
+</section>
+
+<!-- ══════════ VERANO / INVIERNO ══════════ -->
+<section class="seasons" id="producto" aria-labelledby="seasonsTitle">
+  <div class="wrap">
+    <header class="sec-head reveal">
+      <p class="sec-kicker">Cómo funciona</p>
+      <h2 class="sec-title" id="seasonsTitle">
+        Una capa que trabaja <span class="soft">en las dos direcciones</span>
+      </h2>
+      <p class="sec-lead">
+        Las microesferas aislantes forman una barrera continua sobre techos y muros. En verano
+        devuelven la radiación antes de que entre; en invierno frenan la fuga del calor que ya
+        generaste adentro.
+      </p>
+    </header>
+
+    <div class="seasons__grid">
+      <article class="season season--summer glass reveal">
+        <div class="season__glow" aria-hidden="true"></div>
+        <span class="season__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="4.2" stroke="currentColor" stroke-width="1.5"/><path d="M12 1.8v2.6M12 19.6v2.6M22.2 12h-2.6M4.4 12H1.8M19.2 4.8l-1.9 1.9M6.7 17.3l-1.9 1.9M19.2 19.2l-1.9-1.9M6.7 6.7 4.8 4.8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </span>
+        <h3>Verano</h3>
+        <p class="season__claim">El sol pega afuera, no adentro.</p>
+        <p>
+          La terminación blanca y las microesferas actúan como barrera solar: reflejan la
+          radiación que hoy calienta la losa y la convierte en un horno a media tarde.
+        </p>
+        <p class="season__meta">Ambientes más frescos · Menos horas de aire acondicionado</p>
+      </article>
+
+      <article class="season season--winter glass reveal">
+        <div class="season__glow" aria-hidden="true"></div>
+        <span class="season__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M12 2v20M2.9 6.8l18.2 10.4M2.9 17.2 21.1 6.8"/><path d="M12 5.6 9.7 3.3M12 5.6l2.3-2.3M12 18.4l-2.3 2.3M12 18.4l2.3 2.3M6.2 9.1 3.1 8.3M6.2 9.1l-.8-3.1M17.8 14.9l3.1.8M17.8 14.9l.8 3.1M6.2 14.9l-3.1.8M6.2 14.9l-.8 3.1M17.8 9.1l3.1-.8M17.8 9.1l.8-3.1"/></svg>
+        </span>
+        <h3>Invierno</h3>
+        <p class="season__claim">El calor que generás, se queda.</p>
+        <p>
+          La misma capa aislante reduce la pérdida térmica por techos y paredes, el punto por donde
+          se escapa el confort que estás pagando con la estufa encendida.
+        </p>
+        <p class="season__meta">Ambientes más cálidos · Menos consumo de calefacción</p>
+      </article>
+    </div>
+
+    <p class="seasons__foot reveal">
+      <span class="seasons__foot-mark" aria-hidden="true">✦</span> Y durante todo el año, la misma
+      película sigue siendo una membrana impermeable: sella fisuras, resiste la lluvia y evita
+      filtraciones.
+    </p>
+  </div>
+</section>
+
+<!-- ══════════ NOSOTROS ══════════ -->
+<section class="about" id="nosotros" aria-labelledby="aboutTitle">
+  <div class="wrap about__grid">
+
+    <figure class="about__media reveal">
+      <img src="assets/totaltech-envase.jpg" alt="Envase de TotalTech, la membrana impermeable atérmica de Netcolor" loading="lazy" decoding="async" width="460" height="565">
+      <figcaption class="about__caption">
+        <span class="about__caption-line">
+          <strong>TotalTech</strong>
+          <span>Blanco · 4 L y 20 L</span>
+        </span>
+        <ul class="about__seals">
+          <li>Con microesferas aislantes</li>
+          <li>Escudo térmico total</li>
+          <li>CMA · Compromiso con el medio ambiente</li>
+        </ul>
+      </figcaption>
+    </figure>
+
+    <div class="about__copy">
+      <p class="sec-kicker reveal">Sobre nosotros</p>
+      <h2 class="sec-title reveal" id="aboutTitle">
+        Netcolor. <span class="soft">Calidad que pinta.</span>
+      </h2>
+      <p class="sec-lead reveal">
+        Somos una fábrica de pinturas que trabaja con una idea simple: un buen producto se nota
+        en la pared años después de aplicarlo. Con esa vara desarrollamos línea por línea, y de
+        ese trabajo nació TotalTech, nuestra membrana impermeable atérmica.
+      </p>
+      <p class="reveal">
+        No es una impermeabilizante con un nombre nuevo. Es una formulación propia que suma
+        microesferas aislantes a la película, para que la misma mano de producto que sella el
+        techo también trabaje sobre la temperatura de la casa.
+      </p>
+
+      <ul class="diffs reveal">
+        <li class="diff">
+          <span class="diff__num">01</span>
+          <div>
+            <h3>Desarrollo propio</h3>
+            <p>Formulada en nuestro laboratorio, con las microesferas aislantes integradas a la película y no agregadas al momento de aplicar.</p>
+          </div>
+        </li>
+        <li class="diff">
+          <span class="diff__num">02</span>
+          <div>
+            <h3>Escudo térmico total</h3>
+            <p>Pensada para las dos estaciones: barrera solar en verano y aislación en invierno, sobre techos y sobre muros.</p>
+          </div>
+        </li>
+        <li class="diff">
+          <span class="diff__num">03</span>
+          <div>
+            <h3>Compromiso ambiental</h3>
+            <p>Producto CMA: base agua, bajo olor y menor impacto, tanto al fabricarlo como al aplicarlo.</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<!-- ══════════ BENEFICIOS ══════════ -->
+<section class="benefits" id="beneficios" aria-labelledby="benefitsTitle">
+  <div class="wrap">
+    <header class="sec-head sec-head--center reveal">
+      <p class="sec-kicker">Producto</p>
+      <h2 class="sec-title" id="benefitsTitle">Todo lo que hace <span class="soft">una sola membrana</span></h2>
+      <p class="sec-lead">Ocho razones por las que TotalTech reemplaza a la impermeabilizante común.</p>
+    </header>
+
+    <ul class="cards">
+      <li class="card glass reveal">
+        <span class="card__icon card__icon--warm" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.6"/><path d="M12 2v2.5M12 19.5V22M22 12h-2.5M4.5 12H2M19.07 4.93l-1.77 1.77M6.7 17.3l-1.77 1.77M19.07 19.07 17.3 17.3M6.7 6.7 4.93 4.93" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        </span>
+        <h3>Barrera solar</h3>
+        <p>Refleja la radiación en lugar de absorberla. El techo deja de acumular calor y de trasladarlo al ambiente.</p>
+      </li>
+
+      <li class="card glass reveal">
+        <span class="card__icon card__icon--cool" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M12 2.5v19M3.9 7.2l16.2 9.6M3.9 16.8 20.1 7.2"/><path d="M12 6.3 9.6 3.9M12 6.3l2.4-2.4M12 17.7l-2.4 2.4M12 17.7l2.4 2.4"/></svg>
+        </span>
+        <h3>Aislación en frío</h3>
+        <p>Reduce la pérdida de calor por la envolvente. La calefacción rinde más porque el confort no se escapa por el techo.</p>
+      </li>
+
+      <li class="card glass reveal">
+        <span class="card__icon card__icon--blue" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M12 2.8s6.5 6.6 6.5 11a6.5 6.5 0 0 1-13 0c0-4.4 6.5-11 6.5-11Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M9.2 14.4a2.8 2.8 0 0 0 2.8 2.8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        </span>
+        <h3>Impermeable</h3>
+        <p>Forma una película continua y elástica que sella fisuras y acompaña los movimientos del sustrato sin cuartearse.</p>
+      </li>
+
+      <li class="card glass reveal">
+        <span class="card__icon card__icon--cyan" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8.2" r="3"/><circle cx="7.2" cy="15.4" r="3"/><circle cx="16.8" cy="15.4" r="3"/></svg>
+        </span>
+        <h3>Microesferas aislantes</h3>
+        <p>El corazón de la fórmula: millones de microesferas que rompen el puente térmico dentro de la propia película.</p>
+      </li>
+
+      <li class="card glass reveal">
+        <span class="card__icon card__icon--green" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M13.2 2.5 4.5 13.6h6.1l-.8 7.9 8.7-11.1h-6.1l.8-7.9Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+        </span>
+        <h3>Ahorra energía</h3>
+        <p>Menos horas de equipo encendido, en verano y en invierno. El ahorro se acumula factura tras factura.</p>
+      </li>
+
+      <li class="card glass reveal">
+        <span class="card__icon card__icon--slate" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M2.8 10.5 12 3.2l9.2 7.3"/><path d="M5.2 12.4v8.4h13.6v-8.4"/><path d="M9.6 20.8v-5.2h4.8v5.2"/></svg>
+        </span>
+        <h3>Techos y muros</h3>
+        <p>Losas, chapa, membranas asfálticas envejecidas, medianeras y fachadas. Un solo producto para toda la envolvente.</p>
+      </li>
+
+      <li class="card glass reveal">
+        <span class="card__icon card__icon--slate" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 10v4M8 7v10M12 4.5v15M16 7v10M20 10v4"/></svg>
+        </span>
+        <h3>Aislante acústico</h3>
+        <p>La misma capa que frena el calor amortigua el ruido de la lluvia y el granizo golpeando la chapa.</p>
+      </li>
+
+      <li class="card glass reveal">
+        <span class="card__icon card__icon--cool" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"><path d="M6.5 10.5a4.2 4.2 0 0 1 8-1.8 3.6 3.6 0 0 1 4 3.5 3.4 3.4 0 0 1-1.2 6.6H6.8a3.9 3.9 0 0 1-.3-7.8Z"/><circle cx="9" cy="18.5" r=".9" fill="currentColor" stroke="none"/><circle cx="13.5" cy="19.5" r=".9" fill="currentColor" stroke="none"/><circle cx="16.5" cy="17.5" r=".9" fill="currentColor" stroke="none"/></svg>
+        </span>
+        <h3>Anti granizo</h3>
+        <p>Su elasticidad absorbe el impacto y protege la chapa de golpes y abolladuras durante la tormenta.</p>
+      </li>
+    </ul>
+
+    <!-- Datos de la ficha técnica de TotalTech (assets/TOTAL TECH MERCADO LIBRE.pdf) -->
+    <dl class="specs glass reveal">
+      <div class="spec"><dt>Rendimiento</dt><dd>1,5 – 2 L/m²</dd></div>
+      <div class="spec"><dt>Manos recomendadas</dt><dd>2 – 3 manos</dd></div>
+      <div class="spec"><dt>Secado al tacto</dt><dd>1 – 2 h</dd></div>
+      <div class="spec"><dt>Entre manos</dt><dd>6 – 8 h aprox.</dd></div>
+    </dl>
+    <p class="specs__note reveal">Para la óptima aislación térmica, aplicar 2 L/m². Presentaciones de 4 L y 20 L.</p>
+
+    <div class="meta-rows reveal">
+      <div class="meta-row">
+        <span class="meta-row__label">Se aplica con</span>
+        <ul class="tag-list">
+          <li>Pincel</li>
+          <li>Rodillo</li>
+          <li>Soplete / tolva</li>
+        </ul>
+      </div>
+      <div class="meta-row">
+        <span class="meta-row__label">Superficies</span>
+        <ul class="tag-list">
+          <li>Chapa galvanizada / Cincalum</li>
+          <li>Fibrocemento</li>
+          <li>Concreto</li>
+          <li>Mampostería</li>
+          <li>Baldosas</li>
+          <li>Asfalto</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ TESTIMONIOS ══════════ -->
+<section class="testimonials" id="testimonios" aria-labelledby="testTitle">
+  <div class="wrap">
+    <header class="sec-head sec-head--center reveal">
+      <p class="sec-kicker">Testimonios</p>
+      <h2 class="sec-title" id="testTitle">Lo que pasa <span class="soft">después de aplicarlo</span></h2>
+    </header>
+
+    <!-- TESTIMONIOS FICTICIOS: reemplazar por casos reales antes de publicar. -->
+    <div class="quotes" id="quotes" role="region" aria-label="Testimonios de clientes" tabindex="0">
+      <article class="quote glass reveal">
+        <div class="quote__stars" role="img" aria-label="5 de 5 estrellas">★★★★★</div>
+        <blockquote><p>«El primer verano se notó al toque. La habitación de arriba era imposible después de las tres de la tarde y ahora entrás y es otra casa.»</p></blockquote>
+        <footer class="quote__by">
+          <span class="avatar" aria-hidden="true">MG</span>
+          <span class="quote__who"><strong>Marcela Giménez</strong><small>Propietaria · Rosario</small></span>
+        </footer>
+      </article>
+
+      <article class="quote glass reveal">
+        <div class="quote__stars" role="img" aria-label="5 de 5 estrellas">★★★★★</div>
+        <blockquote><p>«Lo uso en todos los techos que reparo. Se aplica como una pintura, cubre bien y el cliente deja de llamarme por filtraciones al invierno siguiente.»</p></blockquote>
+        <footer class="quote__by">
+          <span class="avatar" aria-hidden="true">DR</span>
+          <span class="quote__who"><strong>Diego Ruiz</strong><small>Aplicador · Buenos Aires</small></span>
+        </footer>
+      </article>
+
+      <article class="quote glass reveal">
+        <div class="quote__stars" role="img" aria-label="5 de 5 estrellas">★★★★★</div>
+        <blockquote><p>«Lo pusimos sobre la chapa del depósito. Bajó el calor adentro y de paso resolvimos las goteras que veníamos parchando hace años.»</p></blockquote>
+        <footer class="quote__by">
+          <span class="avatar" aria-hidden="true">LF</span>
+          <span class="quote__who"><strong>Laura Fernández</strong><small>Administración · Córdoba</small></span>
+        </footer>
+      </article>
+    </div>
+
+    <div class="dots" id="quoteDots"></div>
+  </div>
+</section>
+
+<!-- ══════════ CTA FINAL ══════════ -->
+<section class="cta" aria-labelledby="ctaTitle">
+  <div class="wrap">
+    <div class="cta__panel reveal">
+      <h2 id="ctaTitle">Protegé tu casa del calor,<br>el frío y la humedad. <span class="soft">Todo el año.</span></h2>
+      <p>Contanos cuántos metros tenés que cubrir y te asesoramos sobre el rendimiento, la preparación de la superficie y el punto de venta más cercano.</p>
+      <a class="btn btn--white" href="https://wa.me/5511999999999?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20TotalTech" target="_blank" rel="noopener">
+        <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.22 8.22 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.25-8.24 2.2 0 4.27.86 5.83 2.42a8.19 8.19 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23Z"/></svg>
+        Escribinos por WhatsApp
+      </a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ══════════ FOOTER ══════════ -->
+<footer class="site-footer">
+  <div class="wrap site-footer__inner">
+    <div class="site-footer__id">
+      <p class="site-footer__brand">Netcolor</p>
+      <p class="site-footer__slogan">Calidad que pinta</p>
+    </div>
+    <nav class="site-footer__links" aria-label="Navegación del pie">
+      <a href="#producto">Producto</a>
+      <a href="#beneficios">Beneficios</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#testimonios">Testimonios</a>
+    </nav>
+    <p class="site-footer__legal">
+      TotalTech · Membrana impermeable atérmica<br>
+      © <span id="year">2026</span> Netcolor. Todos los derechos reservados.
+    </p>
+  </div>
+</footer>
+
+<!-- ══════════ WHATSAPP FAB ══════════ -->
+<a class="wa-fab" id="waFab"
+   href="https://wa.me/5511999999999?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20TotalTech"
+   target="_blank" rel="noopener" aria-label="Escribinos por WhatsApp">
+  <span class="wa-fab__tip" aria-hidden="true">¿Consultas? Escribinos</span>
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm5.8 13.83c-.25.7-1.44 1.33-2 1.42-.51.08-1.16.11-1.87-.12-.43-.14-.98-.32-1.69-.63-2.97-1.28-4.91-4.27-5.06-4.47-.15-.2-1.21-1.6-1.21-3.06s.77-2.17 1.04-2.47c.27-.3.59-.37.79-.37.2 0 .39 0 .57.01.18.01.42-.07.66.5.25.6.84 2.06.91 2.21.07.15.12.32.02.52-.1.2-.15.32-.3.5-.15.17-.31.39-.44.52-.15.15-.3.31-.13.61.17.3.76 1.25 1.63 2.03 1.12 1 2.06 1.3 2.36 1.45.3.15.47.12.64-.07.17-.2.74-.86.94-1.16.2-.3.4-.25.66-.15.27.1 1.71.81 2.01.95.3.15.5.22.57.35.07.12.07.72-.18 1.42Z"/></svg>
+</a>
+
+<script src="script.js" defer></script>
+</body>
+</html>
